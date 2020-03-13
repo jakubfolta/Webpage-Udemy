@@ -16,7 +16,8 @@ body {
   line-height: 1.6; }
 
 .container {
-  display: grid; }
+  display: grid;
+  grid-template-rows: 80vh min-content; }
 
 .features {
   background-color: #a8a8a8; }
