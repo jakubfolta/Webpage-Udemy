@@ -18,7 +18,7 @@ body {
 .container {
   display: grid;
   grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
-  grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] 1fr [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] 1fr [full-end]; }
+  grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end]; }
   .container > * {
     padding: 4rem;
     font-size: 3rem; }
@@ -36,13 +36,16 @@ body {
   grid-column: center-start / center-end; }
 
 .realtors {
-  background-color: #0f1b29; }
+  background-color: #0f1b29;
+  grid-column: col-start 7 / full-end; }
 
 .story__pictures {
-  background-color: #c59763; }
+  background-color: #c59763;
+  grid-column: full-start /col-end 4; }
 
 .story__content {
-  background-color: #f9f7f6; }
+  background-color: #f9f7f6;
+  grid-column: col-start 5 /full-end; }
 
 .footer {
   background-color: #0f1b29;
@@ -50,7 +53,7 @@ body {
 
 .header {
   background-color: #514638;
-  grid-column: full-start / span 7; }
+  grid-column: full-start / col-end 6; }
 
 .sidebar {
   background-color: #c59763;
