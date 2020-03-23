@@ -111,6 +111,19 @@ body {
 
 .home {
   background-color: #f9f7f6; }
+  .home__img {
+    width: 100%; }
+  .home__like {
+    width: 1rem;
+    height: 1rem; }
+  .home__name {
+    font-size: 2rem; }
+  .home__location svg, .home__rooms svg, .home__area svg, .home__price svg {
+    width: 2rem;
+    height: 2rem;
+    fill: #c59763; }
+  .home__location p, .home__rooms p, .home__area p, .home__price p {
+    font-size: 1.6rem; }
 
 .realtors {
   background-color: #0f1b29;
