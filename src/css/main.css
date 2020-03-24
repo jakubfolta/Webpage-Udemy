@@ -291,4 +291,28 @@ body {
 .sidebar {
   background-color: #c59763;
   grid-row: 1 / -1;
-  grid-column: sidebar-start / sidebar-end; }
+  grid-column: sidebar-start / sidebar-end;
+  display: flex;
+  justify-content: center; }
+
+.nav-btn {
+  position: relative;
+  top: 2rem;
+  border: none;
+  border-radius: 0;
+  background-color: #fff;
+  width: 4.5rem;
+  height: 2px; }
+  .nav-btn::before, .nav-btn::after {
+    position: absolute;
+    content: '';
+    display: block;
+    background-color: #fff;
+    width: 4.5rem;
+    height: 2px; }
+  .nav-btn::before {
+    top: -1rem;
+    left: 0; }
+  .nav-btn::after {
+    top: 1rem;
+    left: 0; }
