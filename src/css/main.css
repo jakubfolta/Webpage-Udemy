@@ -364,6 +364,11 @@ body {
   grid-column: sidebar-start / sidebar-end;
   display: flex;
   justify-content: center; }
+  @media only screen and (max-width: 62.5em) {
+    .sidebar {
+      grid-row: 1 / 2;
+      grid-column: full-start / full-end;
+      justify-content: flex-end; } }
 
 .nav-btn {
   position: relative;
