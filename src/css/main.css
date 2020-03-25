@@ -246,6 +246,9 @@ body {
     @media only screen and (max-width: 50em) {
       .realtors__list {
         grid-template-columns: repeat(6, max-content); } }
+    @media only screen and (max-width: 37.5em) {
+      .realtors__list {
+        grid-template-columns: repeat(2, max-content); } }
   .realtors__img {
     height: 7rem;
     display: block;

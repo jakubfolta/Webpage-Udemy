@@ -18,6 +18,8 @@
     align-items: center;
 
     @media only screen and (max-width: $bp-medium) { grid-template-columns: repeat(6, max-content); }
+
+    @media only screen and (max-width: $bp-small) { grid-template-columns: repeat(2, max-content); }
   }
 
   &__img {
