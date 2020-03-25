@@ -28,7 +28,7 @@ body {
       grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end]; } }
   @media only screen and (max-width: 50em) {
     .container {
-      grid-template-rows: 6rem 80vh repeat(2, min-content) 40vw repeat(3, min-content); } }
+      grid-template-rows: 6rem 80vh repeat(2, min-content) 40vw 50vw repeat(3, min-content); } }
 
 .heading-1, .heading-2, .heading-3, .heading-4 {
   font-family: "Josefin Sans", sans-serif;
@@ -265,6 +265,9 @@ body {
   background-position: center;
   background-size: cover;
   background-color: #c59763; }
+  @media only screen and (max-width: 50em) {
+    .story__pictures {
+      grid-column: full-start /full-end; } }
 
 .story__img--1 {
   width: 100%;
@@ -287,6 +290,10 @@ body {
   background-color: #f9f7f6;
   grid-column: col-start 5 /full-end;
   padding: 6rem 8vw; }
+  @media only screen and (max-width: 50em) {
+    .story__content {
+      grid-column: full-start /full-end;
+      grid-row: 5 / 6; } }
 
 .story__text {
   font-size: 1.5rem;
