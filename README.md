@@ -1,10 +1,10 @@
 # Webpage Udemy
-Created while going through Advanced CSS course on Udemy by Jonas Schmedtmann.
+CSS Grid. Created while going through Advanced CSS course on Udemy by Jonas Schmedtmann.
 
 ## Check Here ==> https://jakubfolta.github.io/Webpage-Udemy/
 
 ## Udemy Course
-![Webpage](./images/udemy.jpg)
+![Webpage](./images/CSSGrid.jpg)
 
 ## Technologies
 * HTML5, CSS3 (CSS Grid), Sass, NPM
